@@ -29,9 +29,10 @@ body {
 .popup__container {
     box-sizing: border-box;
     position: relative;
-    margin: 236px auto 0;
+    top: calc(50% - 596px/2);
+    left: calc(50% - 390px/2);
     padding: 20px 30px;
-    width: 390px;
+    max-width: 390px;
     height: 596px;
     background-color: #ffffff;
 }
@@ -136,6 +137,7 @@ body {
     background-color: #f4f7f6;
     font-size: 13px;
     color: #818382;
+    resize: none;
 }
 
 .popup__container__form__textarea:focus {
