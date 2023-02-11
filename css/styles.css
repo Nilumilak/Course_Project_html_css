@@ -351,7 +351,7 @@ body {
     }
 }
 
-@media (max-height: 640px) and (orientation: landscape) {
+@media (max-width: 640px) and (orientation: landscape) {
     .trends__container {
         flex-wrap: wrap;
     }
