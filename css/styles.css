@@ -15,6 +15,7 @@
 body {
     margin: 0;
     padding: 0;
+    min-width: 420px;
 }
 
 .popup {
@@ -186,7 +187,7 @@ body {
 
 @media (min-width: 1200px) {
     .header__container {
-        width: 1200px;
+        max-width: 1200px;
     }
 }
 
@@ -310,7 +311,6 @@ body {
 .trends__container {
     display: flex;
     margin-top: 27px;
-    justify-content: space-between;
     min-height: 320px;
 }
 
@@ -326,7 +326,7 @@ body {
 
 @media (min-width: 1200px) {
     .trends__container__item {
-        width: 410px;
+        width: 25%;
     }
 }
 
@@ -436,7 +436,7 @@ body {
 
 @media (min-width: 1200px) {
     .page {
-        width: 1200px;
+        max-width: 1200px;
     }
 }
 
